@@ -20,6 +20,8 @@ Backing up your phone to your computer over USB using [restic](https://restic.ne
 
 Copy `.env.sh.example` to `.env.sh` and adapt the settings
 
+Copy `exclude-file.example` to `exclude-file` and adapt the settings
+
 Initialise restic repo: `restic init -r REPO`
 
 Install js dependencies: `npm install`
